@@ -15,7 +15,7 @@
 
 
 
-
+/* 
 
 
 package HW_1;
@@ -33,3 +33,5 @@ public class task_4 {
         return false;
     }
 }
+
+*/
