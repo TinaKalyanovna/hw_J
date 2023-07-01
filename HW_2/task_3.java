@@ -3,7 +3,7 @@
 
 
 
-
+/* 
 
 
 
@@ -78,3 +78,5 @@ public static String FileReader(String path, Charset encoding) throws IOExceptio
     inStream.close();
     return new String(bytes, encoding);
 }
+
+*/
