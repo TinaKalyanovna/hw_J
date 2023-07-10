@@ -11,7 +11,6 @@ public class task6_1 {
     }
 
     public static Set<Cat> createCats() {
-        // Реализовать метод createCats, множество (Set) котов и добавлением в него 3 кота.
         Set<Cat> cats = new HashSet<>();
         for (int i = 0; i < 3; i++) {
             cats.add(new Cat());
@@ -20,8 +19,6 @@ public class task6_1 {
     }
 
     public static void printCats(Set<Cat> cats) {
-        // Реализовать метод printCats, вывод всех котов,
-        // которые остались во множестве.
         for (Cat cat : cats){
             System.out.println(cat);
         }
